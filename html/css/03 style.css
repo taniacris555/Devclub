@@ -1,0 +1,65 @@
+.box{
+width: 50px;
+height: 50px;
+background: #ff1493;
+margin: 50px;
+}
+
+.box-2{
+width: 50px;
+height: 50px;
+background:#9400D3 ;
+margin: 50px;
+padding: 60px;
+
+}
+/*Primeiro atalho para padding e margin*/
+.box-3{
+width: 50px;
+height: 50px;
+background:#9400D3 ;
+margin-top: 20px;/*Aplica na parte de cima*/
+margin-bottom: 30px;/*Aplica na parte de baixo*/
+margin-right: 10px;/*Aplica no lado direito*/
+margin-left: 5px;/*Aplica no lado esquerdo*/
+/*Obiservação:vala para o pading também*/
+
+/*Segundo atalho para padding e margin mais conhecido como atalho do relógio*/
+
+margin: 10px 50px 30px 5px;
+      /*.12h..15h..18h..21h............*/
+/* Neste siste ele começa aplicando primeiro 
+na parte de cima (topo), depois lado direito
+(right),depoislado de baixo(bottom), depois 
+lado esquerdo(left)*/
+/* Observação também vale para o padding*/
+margin: 10px 50px 30px;
+/*Treceiro atalho aplicando ´so tres valores 
+o css entende que será 10 para o topo , 50 para
+cada lado, e 30 para para a parte de baixo*/
+margin: 10px 50px ; 
+/*E quando for apenas odis valore so css aplicará
+10 em cima e dez em baixo e 50 de cada lado*/
+
+}
+
+
+
+
+
+
+/*(padding)Padding é um termo em inglês que significa "enchimento" e, 
+em programação web, é usado para definir o espaçamento interno de um elemento. 
+(Margin)Na prática, a propriedade margin é utilizada para inserir um espaçamento
+ externo ao elemento, ao redor da borda. É importante não confundir essa propriedade
+  com o padding, que define um espaço interno, entre o elemento HTML e a borda.
+(height)A propriedade height do CSS define a altura de um elemento na tela do navegador.
+ Ela é uma das propriedades mais importantes do CSS, pois é utilizada para criar layouts 
+ e definir tamanhos de elementos. 
+(width)A propriedade CSS width define a largura de um elemento, ou seja, o tamanho horizontal
+ do conteúdo que ele pode conter. 
+
+
+
+*/
+

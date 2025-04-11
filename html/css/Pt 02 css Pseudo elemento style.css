@@ -1,0 +1,46 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+
+
+}
+input{
+
+border: 01px solid red;
+color: blue;
+}
+input ::placeholder{
+color: #ff1396;
+
+}
+
+p{
+color: blue;
+
+}
+
+p::first-letter{
+color: red;
+
+}
+
+a{
+color: blue;
+
+}
+
+a::before{/*before coloca  obijeto antes  eafter coloca depois*/
+    content:"🚀" ;
+}
+
+a::after{
+content:"🚀";
+
+}
+
+
+
+
+
+

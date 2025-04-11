@@ -1,0 +1,108 @@
+.sacramento-regular {
+    font-family: "Sacramento", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    color: red;
+    font-size: 64px;
+    font-weight: lighter;
+    font-family: "Sacramento", serif;
+    font-style: italic;
+    text-shadow: 5px 5px 5px #ff0000;
+}
+
+p {
+    color: blue;/* troca a cor do texto    */
+    font-size: 30px;/*troca o tamanho do texto*/
+    font-weight: 100;
+    font-family: "Sacramento", serif;
+    font-style: italic;
+    line-height: 50px;
+    letter-spacing: 10px;
+    word-spacing: 40;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: overline;
+
+
+
+
+}
+
+
+
+
+
+
+
+/*(bold)deixar texto em negrito
+  (boder deixar mais negrito ainda mais grossa
+  (lighter) deixa o texto bem fininho
+  (italic)deixa o texto um pouco enclinado
+  (line-height) espaçamento entre as linhas
+  (letter-spacing) espaçamento entre as letras
+  (word-spacing)espaçamento entre as palavras
+  (text-alingn)alinhamento de texto
+  (tex-transform)transforma o texto em letras maiusculas(uppercase)
+   ou minusculas(lowercase)ou(capitalize)que é somente a primeira letra maiuscula
+  (tex-decoration)decorar texto como sulinhar
+  (underline)linha em baixo do texto sublihnado
+  (overline)linha em cima do texto
+  (texshadow0 colocar sombra no texto */
+
+
+h1 {
+    color: rgb(0, 255, 42);
+    font-size: 64px;
+    font-weight: lighter;
+    font-family: "opera", serif;
+    font-style: italic;
+    text-shadow: 5px 5px 5px #ff0000;
+
+
+}
+
+p {
+    color: blue;/* troca a cor do texto    */
+    font-size: 30px;/*troca o tamanho do texto*/
+    font-weight: 100;
+    font-family: "opera", serif;
+    font-style: italic;
+    line-height: 50px;
+    letter-spacing: 10px;
+    word-spacing: 40;
+    text-align:justify;
+    text-transform: capitalize;
+    text-decoration: overline;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

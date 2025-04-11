@@ -1,0 +1,50 @@
+.box{
+background: #ff1395;
+height: 50px;
+width: 50px;
+
+}
+
+.box-2{
+background: #ff0;
+
+
+}
+
+.box-3{
+background: #0003ff;
+
+
+
+}
+
+
+
+
+
+/*Display
+
+-Block
+-Iline
+-Iline-Block
+
+
+-Gred
+-Flex
+
+
+-Block
+  Vem como padrão:div,section,p,h1,h2,ul,li,article....
+      -Ocupa 100% da largura do elemento pai
+      -Sempre ocupa toda sua linha
+      -Altura definida de acordo com o conteúdo
+      -Podemos definir heght e whidth
+      -Podemos definir valores de margin
+ 
+
+Iline
+  Vem como padrão:a, span ,b,i.....
+    -Elementos em linha
+    -Não permite alterar heght e whidth
+    -Não podemos definir valores de margin
+    -Ganha comportamento de uma palavra */

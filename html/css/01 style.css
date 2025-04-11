@@ -1,0 +1,55 @@
+  /*É obrigatório o (;) no final de cada estilização*/
+  /* o (*) É o seletor de tudo VAI APLICAR O COMANDO EM TODA PÁGINA */
+  /*T oda vez que eu quero chamar um (id) pesquisar um (id) pelo elemento dele eu uso á (#)*/
+
+
+
+
+  #títilo {
+    color: blueviolet;
+    background-color: black;
+}
+
+#parágrafo {
+   color: blue;
+   font-size: 20px;
+}
+
+#botão {
+    background-color: blueviolet;
+    border-color: red;}
+
+#outro-botão {
+  background-color: red;
+  border-color: black;
+}
+
+.texto {
+color: chartreuse;
+font-weight: bold;
+}
+
+.botão {
+  background-color: blue ;
+}
+
+
+
+/* caso queira colocar vários seletores na mesma cor por exemplo eu posso ir separando por (,) e ir colocando um na frente do ourtro/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

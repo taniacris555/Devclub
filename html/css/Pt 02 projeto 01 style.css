@@ -1,0 +1,175 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+
+}
+
+.warper {
+    height: 100vh;
+    /*"Vh" é uma unidade de medida do CSS que significa "viewport height" (altura da janela do navegador). Ela é usada para dimensionar elementos em relação à altura da janela do navegador. */
+    width: 100vw;
+    /*No CSS, vw é a abreviação de viewport width, que significa "largura da janela de visualização". É uma unidade de medida relativa que expressa uma porcentagem da largura da área visível de uma página web. */
+}
+
+.conteiner-left {
+    display: inline-block;
+    /*Display inline-block é uma propriedade do CSS que permite definir a largura e altura de elementos, mantendo-os alinhados lado a lado. */
+    width: 60%;
+    padding-left: 136px;
+    margin-top: 20%;
+
+}
+
+/*A propriedade CSS left posiciona um elemento no lado esquerdo da página. Ela altera a posição horizontal de um elemento posicionado. */
+
+.conteiner-right {
+    display: inline-block;
+    background-color: rgba(93, 93, 125, 0.16);
+    height: 100vh;
+    width: 40%;
+    position: absolute;
+
+}
+
+img {
+
+    position: relative;
+    top: 25%;
+    right: 130px;
+
+}
+
+h1 {
+
+    color: #5D5D7D;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 80px;
+    width: 368px;
+}
+
+p {
+
+    color: #5D5D7D;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 48px;
+    opacity: 0.6;
+    margin: 15px 0;
+    width: 540px;
+}
+
+button {
+
+    width: 269px;
+    height: 62px;
+    background: #9499ea;
+    box-shadow: 0px 10px 24px rgba(148, 153, 234, 0.0979959);
+    border: none;
+    border-radius: 30px;
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    line-height: normal;
+    cursor: pointer;
+}
+
+button:hover {
+
+    opacity: .8;
+}
+
+button;
+
+:active {
+    opacity: .3;
+}
+
+a {
+    color: #5D5D7D;
+    font-size: 28px;
+    line-height: normal;
+    margin-right: 41px;
+    cursor: pointer;
+}
+
+a:nth-child(2) {
+    opacity: 0.4;
+}
+
+a:hover {
+    opacity: 0.4;
+}
+
+
+a:active {
+    opacity: 0.8;
+}
+
+header {
+    margin: 24px 0 0 57px;
+
+
+}
+
+@media screen and (max-width: 900px) {
+
+    .conteiner-left {
+        width: 100%;
+        height: 50%;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .conteiner-right {
+        display: block;
+        height: auto;
+        width: 100%;
+        position: static;
+        padding: 40%;
+
+    }
+
+    img {
+        position: static;
+        max-width: 90%;
+
+    }
+
+    header {
+        display: none;
+
+
+    }
+
+    h1 {
+        font-size: 36px;
+        font-weight: 52px;
+        width: auto;
+        margin: 58px 50px 0px 50px;
+        text-align: center;
+    }
+
+    p {
+        margin: 15px 40px;
+        width: auto;
+        text-align: center;
+        font-size: 14px;
+        line-height: 24px;
+
+    }
+
+    button {
+        margin: 0 auto;
+        display: block;
+    }
+
+
+
+}
+
+
+/*No CSS, a propriedade right define a posição horizontal de um elemento na página, posicionando-o no lado direito. */

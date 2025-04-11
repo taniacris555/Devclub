@@ -1,0 +1,46 @@
+/* Resposividade
+
+ALL: pARA TODOS OS DISPOSITIVOS.
+Braílle; Para dispositivos táteis.
+Embossed: Para dispositivos que imprimem em braille.
+Handhelde:Para dispositivos portáteis,geralmente com telas pequenas e bandas limitadas.
+Print:Para impressão em paspel.
+Projection: Para apresentações como pps.
+Scren: para monitores ou dispositivos com telas coloridas ou resolução adequada.
+SPeech:Para sintetizadores de voz,A css 2 tem uma especificação de css chamada aural,onde podemos formatar as vozes dos sintetizadores.
+
+
+Orientação:
+
+
+Portrate: Autura maior que largura.
+Landscap:Largura maior que autura.
+
+*/
+
+* {
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+
+}
+
+div {
+height: 700px;
+width: 700px;
+background: blue;
+
+}
+
+@midia (max-width: 600px){
+div{
+    backgroud: red;
+}
+
+
+
+}
+
+
+
+

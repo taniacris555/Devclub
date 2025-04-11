@@ -1,0 +1,50 @@
+/*Vamos falar de position
+
+     Postion: (Padrão) Não aceita valores de top, botton,hight,left.
+     postion: fixed - fixa o elementona tela.
+     postion: Sticky - Age como um adesivo, fixa o elemento só onde eu determinar.
+     postion: relativ - posição relativa a posiçaõ inicial dele.
+     postion: absolut - posiçaõ absoluta( fixa)a algum elento ou página.
+    ...........................Se não tiver pai/pai for estatic--posiciona referente a pagina
+    ............................se o pai não for static--posiciona referente ao pai
+
+    Propriedades
+    -top
+    -buton
+    -left
+    -right
+*/
+
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+height: 200vh;
+width: 200vw;
+}
+.div-dad{
+height: 350px;
+width: 350px;
+background-color:#ff1396;
+
+}
+
+.div-son{
+height: 150px;
+width: 150px;
+background-color: #fff000;
+
+
+}
+
+.div-primo{
+
+background: #ff0000;
+height: 100px;
+width: 100px;
+}
+
+
+
+
+

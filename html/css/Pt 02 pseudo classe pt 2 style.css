@@ -1,0 +1,31 @@
+/*Pseudo classes
+
+:Active-quando oelementoesta ativo,esta sendo prcionado
+:Visited-seleciona olink que foi visitado
+:Hover-quando omouse passa em cima do elemento
+:Checked-usado em radio/checkbox/select/input
+:Disabled-elemento desabilitado
+:Focus-e aplicada quando um elemento recebe foco, o que pode ocorrer quando o usuário seleciona o elemento
+:Reade-only-seleciona input ou textarea que são apenas leitura
+:empty-elemento que não tem filho
+
+
+:first-child= primeiro filho /ex:primeira li de uma ul/primeiro span de uma div
+:first-of-type= primeiro elemento de tipo entre os  filhos de seu elemento pai
+:last-child= último filho
+:last-of-type= último elemento de seu tipo entre os filhos de seu elemento pai
+:not()= estiliza os elementos exeto oque esta dentro do()
+:nth-child()= seleciona o elemento baseado em sua posição.Ex::nth child(3)
+:nth-last-child()= seleciona o elemento baseado em sua posição, contando de trás pra frente
+*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+li:first-child {
+    color: red;
+
+}
